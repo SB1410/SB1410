@@ -1,4 +1,4 @@
-name: Generate pacman contribution graph
+name: Generate pacman contribution graphs
 on:
   schedule:
     - cron: '0 */12 * * *'   # every 12 hours
@@ -17,16 +17,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate pacman-contribution-graph.svg
+      - name: Generate light pacman SVG
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           output: output/pacman-contribution-graph.svg
+          theme: light
+
+      - name: Generate dark pacman SVG
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          output: output/pacman-contribution-graph-dark.svg
           theme: dark
 
-      - name: Commit generated SVG
+      - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update pacman contribution graph"
-          file_pattern: "output/pacman-contribution-graph.svg"
+          commit_message: "chore: update pacman contribution graphs"
+          file_pattern: "output/pacman-contribution-graph*.svg"
           branch: main
