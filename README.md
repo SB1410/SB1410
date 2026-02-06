@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 -->
 <div>
   <img 
-    src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=65&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&rotate=0&stroke=FFFFFF&strokeWidth=2&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"
-    style="width: 100%; height: auto;"
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&text=About%20Me&fontSize=55&fontColor=E0F7FF&fontAlign=50&fontAlignY=50&rotate=0&stroke=FFFFFF&strokeWidth=1&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"
+    style="width: 100%; height: auto; display: block;"
   />
 </div>
 
