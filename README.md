@@ -13,7 +13,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=65&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&rotate=0&stroke=FFFFFF&strokeWidth=2&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"  />
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=65&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&rotate=0&stroke=FFFFFF&strokeWidth=2&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"
+    style="width: 100%; height: auto;"
+  />
 </div>
 
 ###
@@ -52,7 +55,10 @@ Here are some ideas to get you started:
 [![](https://visitcount.itsvg.in/api?id=sb1410&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"
+    style="width: 100%; height: auto; display: block;"
+  />
 </div>
 
 ###
