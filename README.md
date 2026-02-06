@@ -14,14 +14,13 @@ Here are some ideas to get you started:
 -->
 <div>
   <img 
-    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&text=About%20Me&fontSize=55&fontColor=E0F7FF&fontAlign=50&fontAlignY=50&rotate=0&stroke=FFFFFF&strokeWidth=1&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&text=About%20Me&fontSize=55&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&rotate=0&stroke=000000&strokeWidth=1&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"
     style="width: 100%; height: auto; display: block;"
   />
 </div>
 
 ###
 
-# 💫 About Me:
 🔭 I’m currently working on developing a Web dev team/company @ SUDOtech<br>🤝 I’m looking to collaborate on startups with great ideas<br>🌱 I’m currently learning to use AI for Vibe Coding, programming languages, and prompt engineering<br>⚡ Fun fact: Most of the time, I make mistakes, but I also try to learn from them
 
 
